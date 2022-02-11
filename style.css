@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(248, 174, 78);
+    height: 100px;
+}
+
+.main__block {
+    display: flex;
+}
+
+.item,
+.tree,
+.men {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.tree {
+    background-color: green;
+}
+
+.men {
+    background-color: rgb(128, 0, 0);
+}

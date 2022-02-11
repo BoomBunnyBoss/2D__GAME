@@ -1,0 +1,1 @@
+(()=>{"use strict";!function(i){let e="";[[0,0,0,0,0,0],[0,0,1,0,0,0],[0,0,0,0,1,0],[1,0,0,2,0,0],[0,0,0,1,0,0],[0,0,0,0,0,0]].forEach((i=>{e+='<div class = "row">',Array.from(i).forEach((i=>{0===i?e+='<div class = "item"></div>':1===i?e+='<div class = "tree"></div>':2===i&&(e+='<div class = "men"></div>')})),e+="</div>"})),document.getElementById("app").innerHTML=e}()})();
